@@ -4,7 +4,6 @@ title = 'Hugo'
 theme = 'hugo-book'
 
 [sitemap]
-  changeFreq = 'hourly'
-  disable = false
+  changefreq = 'hourly'
   filename = 'sitemap.xml'
-  priority = 0.8
+  priority = 0.5
