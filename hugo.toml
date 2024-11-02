@@ -1,4 +1,10 @@
-baseURL = 'https://www.netsing.top/'
+baseURL = 'https://blog.netsing.top/'
 languageCode = 'en-us'
 title = 'Hugo'
 theme = 'hugo-book'
+
+[sitemap]
+  changeFreq = 'hourly'
+  disable = false
+  filename = 'sitemap.xml'
+  priority = 0.8
