@@ -3,19 +3,35 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="通过.bashrc美化shell ``` PS1=&quot;[\[\e[01;37m\]\t][\[\e[01;32m\]\u\[\e[37m\]@\h \[\e[36m\]\w\[\e[m\]]\\$ &quot; ```
-通过.vimrc美化vim ``` syntax on &quot; 设置语法高亮 set nu &quot; 设置行数显示 set tabstop=4 &quot; 设置tab缩进长度为4空格 set autoindent &quot; 设置自动缩进，适用所有类型文件 set cindent &quot; 针对C语言的自动缩进功能，在C语言的编程环境中，比autoindent更加精准 set list lcs=tab:\|\ &quot; 设置tab提示符号为 &ldquo;|&quot;，注意最后一个反斜杠后面要留有空格 set cc=0 &quot; 设置高亮的列，这里设置为0，代表关闭 set cursorline &quot; 突出显示当前行 set showmode set showcmd set mouse =a set t_Co=256 set relativenumber set noerrorbells set vb t_vb=
+<meta name="description" content="通过.bashrc美化shell
+PS1=&#34;\[\\\[\\e\[01;37m\\\]\\t\]\[\\\[\\e\[01;32m\\\]\\u\\\[\\e\[37m\\\]@\\h \\\[\\e\[36m\\\]\\w\\\[\\e\[m\\\]\]\\\\$ &#34; 
+通过.vimrc美化vim
+syntax on &#34; 设置语法高亮 
+set nu &#34; 设置行数显示 
+set tabstop=4 &#34; 设置tab缩进长度为4空格 
+set autoindent &#34; 设置自动缩进，适用所有类型文件 
+set cindent &#34; 针对C语言的自动缩进功能，在C语言的编程环境中，比autoindent更加精准 
+set list lcs=tab:\\|\\ &#34; 设置tab提示符号为 &#34;|&#34;，注意最后一个反斜杠后面要留有空格 
+set cc=0 &#34; 设置高亮的列，这里设置为0，代表关闭 set cursorline &#34; 突出显示当前行 
+set showmode 
+set showcmd 
+set mouse =a 
+set t\_Co=256 
+set relativenumber 
+set noerrorbells 
+set vb t\_vb=
 set encoding=utf-8 set termencoding=utf-8
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencoding=utf-8 ```">
+
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencoding=utf-8 
+">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/example/linux-terminal-%E7%BE%8E%E5%8C%96/">
   <meta property="og:site_name" content="Hugo">
   <meta property="og:title" content="Linux terminal 美化">
-  <meta property="og:description" content="通过.bashrc美化shell ``` PS1=&#34;[\[\e[01;37m\]\t][\[\e[01;32m\]\u\[\e[37m\]@\h \[\e[36m\]\w\[\e[m\]]\\$ &#34; ```
-通过.vimrc美化vim ``` syntax on &#34; 设置语法高亮 set nu &#34; 设置行数显示 set tabstop=4 &#34; 设置tab缩进长度为4空格 set autoindent &#34; 设置自动缩进，适用所有类型文件 set cindent &#34; 针对C语言的自动缩进功能，在C语言的编程环境中，比autoindent更加精准 set list lcs=tab:\|\ &#34; 设置tab提示符号为 “|&#34;，注意最后一个反斜杠后面要留有空格 set cc=0 &#34; 设置高亮的列，这里设置为0，代表关闭 set cursorline &#34; 突出显示当前行 set showmode set showcmd set mouse =a set t_Co=256 set relativenumber set noerrorbells set vb t_vb=
-set encoding=utf-8 set termencoding=utf-8
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencoding=utf-8 ```">
+  <meta property="og:description" content="通过.bashrc美化shell
+PS1=&#34;\[\\\[\\e\[01;37m\\\]\\t\]\[\\\[\\e\[01;32m\\\]\\u\\\[\\e\[37m\\\]@\\h \\\[\\e\[36m\\\]\\w\\\[\\e\[m\\\]\]\\\\$ &#34; 通过.vimrc美化vim
+syntax on &#34; 设置语法高亮 set nu &#34; 设置行数显示 set tabstop=4 &#34; 设置tab缩进长度为4空格 set autoindent &#34; 设置自动缩进，适用所有类型文件 set cindent &#34; 针对C语言的自动缩进功能，在C语言的编程环境中，比autoindent更加精准 set list lcs=tab:\\|\\ &#34; 设置tab提示符号为 &#34;|&#34;，注意最后一个反斜杠后面要留有空格 set cc=0 &#34; 设置高亮的列，这里设置为0，代表关闭 set cursorline &#34; 突出显示当前行 set showmode set showcmd set mouse =a set t\_Co=256 set relativenumber set noerrorbells set vb t\_vb= set encoding=utf-8 set termencoding=utf-8 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencoding=utf-8">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -27,22 +43,8 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencodin
 <link rel="canonical" href="http://localhost:1313/docs/example/linux-terminal-%E7%BE%8E%E5%8C%96/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.a3b45c6a8b10e625ee655d6fc8f2f7454451923d9c568e49f248bc17ae87713b.js" integrity="sha256-o7RcaosQ5iXuZV1vyPL3RURRkj2cVo5J8ki8F66HcTs=" crossorigin="anonymous"></script>
-
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MEASUREMENT_ID"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-MEASUREMENT_ID');
-        }
-      </script><!--
+  <script defer src="/en.search.min.9f6f1cc50da526467cff3baccfe8cceda2b313ea161e862d9af6467709850ad2.js" integrity="sha256-n28cxQ2lJkZ8/zusz&#43;jM7aKzE&#43;oWHoYtmvZGdwmFCtI=" crossorigin="anonymous"></script>
+<!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -371,11 +373,27 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><p>通过.bashrc美化shell ``` PS1=&quot;[\[\e[01;37m\]\t][\[\e[01;32m\]\u\[\e[37m\]@\h \[\e[36m\]\w\[\e[m\]]\\$ &quot; ```</p>
-<p>通过.vimrc美化vim ``` syntax on &quot; 设置语法高亮 set nu &quot; 设置行数显示 set tabstop=4 &quot; 设置tab缩进长度为4空格 set autoindent &quot; 设置自动缩进，适用所有类型文件 set cindent &quot; 针对C语言的自动缩进功能，在C语言的编程环境中，比autoindent更加精准 set list lcs=tab:\|\ &quot; 设置tab提示符号为 &ldquo;|&quot;，注意最后一个反斜杠后面要留有空格 set cc=0 &quot; 设置高亮的列，这里设置为0，代表关闭 set cursorline &quot; 突出显示当前行 set showmode set showcmd set mouse =a set t_Co=256 set relativenumber set noerrorbells set vb t_vb=</p>
-<p>set encoding=utf-8 set termencoding=utf-8</p>
-<p>set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencoding=utf-8 ```</p>
-</article>
+  <article class="markdown book-article"><p>通过.bashrc美化shell</p>
+<pre tabindex="0"><code>PS1=&#34;\[\\\[\\e\[01;37m\\\]\\t\]\[\\\[\\e\[01;32m\\\]\\u\\\[\\e\[37m\\\]@\\h \\\[\\e\[36m\\\]\\w\\\[\\e\[m\\\]\]\\\\$ &#34; 
+</code></pre><p>通过.vimrc美化vim</p>
+<pre tabindex="0"><code>syntax on &#34; 设置语法高亮 
+set nu &#34; 设置行数显示 
+set tabstop=4 &#34; 设置tab缩进长度为4空格 
+set autoindent &#34; 设置自动缩进，适用所有类型文件 
+set cindent &#34; 针对C语言的自动缩进功能，在C语言的编程环境中，比autoindent更加精准 
+set list lcs=tab:\\|\\ &#34; 设置tab提示符号为 &#34;|&#34;，注意最后一个反斜杠后面要留有空格 
+set cc=0 &#34; 设置高亮的列，这里设置为0，代表关闭 set cursorline &#34; 突出显示当前行 
+set showmode 
+set showcmd 
+set mouse =a 
+set t\_Co=256 
+set relativenumber 
+set noerrorbells 
+set vb t\_vb=
+set encoding=utf-8 set termencoding=utf-8
+
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencoding=utf-8 
+</code></pre></article>
  
       
 
