@@ -1,6 +1,6 @@
 ---
 bookCollapseSection: true
-bookHidden: true
+# bookHidden: true
 ---
 
 # Section
