@@ -1,8 +1,10 @@
 ---
 weight: 2
-bookFlatSection: true
-title: "blog list"
+title: "blog"
+type: blog
 bookCollapseSection: true
+# bookFlatSection: true
+# 平铺
 ---
 
 this is a example site

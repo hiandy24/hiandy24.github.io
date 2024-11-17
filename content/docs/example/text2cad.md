@@ -1,9 +1,10 @@
 ---
 title: "text2CAD论文调研"
 date: "2024-11-17"
+
 ---
 
-# 基本信息
+# 基本信息dd
 论文地址：http://arxiv.org/abs/2409.17106
 repository: https://sadilkhan.github.io/text2cad-project/
 
@@ -20,9 +21,11 @@ repository: https://sadilkhan.github.io/text2cad-project/
 ## 算法定义
 - Text2CAD数据标注
 
-![image-20241117190500593](assets/image-20241117190500593.png)
+![image-20241117230911487](assets/image-20241117230911487.png)
 
 - Tranformer
+
+
 
 
 ## 算法流程
