@@ -1,6 +1,6 @@
 baseURL = 'https://blog.netsing.top/'
 languageCode = 'en-us'
-title = 'Yat's blog'
+title = "Yat's blog"
 theme = 'hugo-book'
 
 [sitemap]
