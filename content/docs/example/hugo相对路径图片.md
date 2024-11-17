@@ -1,7 +1,6 @@
 ---
 title: "hugo图片相对路径"
 date: "2024-11-17"
-
 ---
 
 之前写静态从没有考虑过图片问题，今天再用 hugo server 时遇到了图片无法渲染的问题，我基本流程是，使用Typora写md，然后用vscode push到远程渲染，讲一下我怎么解决的。Typora支持你粘贴文件的时候自动创建一个本地JPG文件（或者PNG，whatever），然后创建一个相对路径链接。
@@ -10,4 +9,14 @@ date: "2024-11-17"
 
 如果你像我这样设置就是在你的文章同等级文件夹下创建一个assets存储所有文件，当然，这样Hugo是没有办法渲染的，但是你可以把这个assets文件夹复制粘贴到static文件夹下面，这样渲染结果就可以了，但是一定不要开优先使用相对路径。
 
+```
+# 然后创建layouts/_default/baseof.html
+{{ $content := .Content }}  
+{{ $content = replace $content "assets/" "/assets/" }}  
+{{ $content }}
+```
+
+我上传博客不是很勤，所以需要上传的时候将assets文件夹复制到static文件夹下。
+
+---
 over
