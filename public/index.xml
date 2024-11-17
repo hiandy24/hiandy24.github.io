@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 17 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>hugo图片相对路径</title>
+      <link>http://localhost:1313/docs/example/hugo%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%9B%BE%E7%89%87/</link>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/example/hugo%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%9B%BE%E7%89%87/</guid>
+      <description>&lt;p&gt;之前写静态从没有考虑过图片问题，今天再用 hugo server 时遇到了图片无法渲染的问题，我基本流程是，使用Typora写md，然后用vscode push到远程渲染，讲一下我怎么解决的。Typora支持你粘贴文件的时候自动创建一个本地JPG文件（或者PNG，whatever），然后创建一个相对路径链接。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/image-20241117191655141.png&#34; alt=&#34;image-20241117191655141&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;如果你像我这样设置就是在你的文章同等级文件夹下创建一个assets存储所有文件，当然，这样Hugo是没有办法渲染的，但是你可以把这个assets文件夹复制粘贴到static文件夹下面，这样渲染结果就可以了，但是一定不要开优先使用相对路径。&lt;/p&gt;&#xA;&lt;p&gt;over&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>text2CAD论文调研</title>
       <link>http://localhost:1313/docs/example/text2cad/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
