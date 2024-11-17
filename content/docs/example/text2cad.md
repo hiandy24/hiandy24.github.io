@@ -20,7 +20,7 @@ repository: https://sadilkhan.github.io/text2cad-project/
 ## 算法定义
 - Text2CAD数据标注
 
-![image-20241117181756530](https://static/assets/image-20241117181756530.png)
+![image-20241117190500593](/assets/image-20241117190500593.png)
 
 - Tranformer
 
