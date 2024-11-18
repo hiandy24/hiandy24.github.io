@@ -1,6 +1,7 @@
 ---
 title: "Text2cad"
 weight: 1
+date: 2024-11-17
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
