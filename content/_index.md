@@ -1,7 +1,5 @@
 ---
-title: Introduction
-type: docs
-bookCollapseSection: true
+title: Home
 ---
 
-do you hear poeple sing?
+you can find all my posts here:
