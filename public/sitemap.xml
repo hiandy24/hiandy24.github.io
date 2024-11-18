@@ -3,22 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/docs/example/</loc>
-    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/docs/example/text2cad/</loc>
-    <lastmod>2024-11-17T00:00:00+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/docs/</loc>
+    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-03T00:00:00+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -103,6 +102,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/docs/shortcodes/</loc>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url><url>

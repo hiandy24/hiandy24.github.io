@@ -39,30 +39,29 @@ repository: https://sadilkhan.github.io/text2cad-project/
   #
 
 
-Text2CAD数据标注
+  Text2CAD数据标注
+  #
 
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/example/text2cad/">
   <meta property="og:site_name" content="Yat&#39;s blog">
-  <meta property="og:title" content="text2CAD论文调研">
+  <meta property="og:title" content="Text2cad">
   <meta property="og:description" content="基本信息dd # 论文地址：http://arxiv.org/abs/2409.17106 repository: https://sadilkhan.github.io/text2cad-project/
 摘要与背景 # 摘要 # 在现代软件中制作复杂的计算机辅助设计 (CAD) 模型原型可能非常耗时。这是由于缺乏能够快速生成更简单的中间零件的智能系统。我们提出了 Text2CAD，这是第一个使用适合所有技能水平的设计师友好指令生成文本到参数 CAD 模型的 AI 框架。此外，我们引入了一个数据注释管道，用于使用 Mistral 和 LLaVA-NeXT 根据 DeepCAD 数据集的自然语言指令生成文本提示。该数据集包含 ~ 170K 个模型和 ~ 660K 个文本注释，从抽象 CAD 描述（例如，生成两个同心圆柱体）到详细规范（例如，绘制两个以 (x, y) 为中心、半径为 r1、r2 的圆，并沿d 后正常…）。在 Text2CAD 框架内，我们提出了一种基于端到端 Transformer 的自回归网络，用于从输入文本生成参数化 CAD 模型。我们通过多种指标来评估模型的性能，包括视觉质量、参数精度和几何精度。我们提出的框架在人工智能辅助设计应用中显示出巨大的潜力。项目页面位于 https://sadilkhan.github.io/text2cad-project/。
 可以将其结合设计，为中间件模型创建文本提示（零件和参数），可以方便搜索
-创新点 # 作为第一个使用文本描述生成参数化 3D CAD 模型的 AI 框架 提出了一个数据注释管道，它利用LLM 和VLM 生成一个数据集，其中包含具有不同复杂程度和参数细节的文本提示 提出了一种基于端到端 Transformer 的自回归架构，用于根据输入文本提示生成 CAD 设计历史记录。 研究内容 # 算法定义 # Text2CAD数据标注">
+创新点 # 作为第一个使用文本描述生成参数化 3D CAD 模型的 AI 框架 提出了一个数据注释管道，它利用LLM 和VLM 生成一个数据集，其中包含具有不同复杂程度和参数细节的文本提示 提出了一种基于端到端 Transformer 的自回归架构，用于根据输入文本提示生成 CAD 设计历史记录。 研究内容 # 算法定义 # Text2CAD数据标注 #">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-    <meta property="article:published_time" content="2024-11-17T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-11-17T00:00:00+00:00">
-<title>text2CAD论文调研 | Yat&#39;s blog</title>
+<title>Text2cad | Yat&#39;s blog</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="http://localhost:1313/docs/example/text2cad/">
 <link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.ab20331aa42c07527a55ff8b4e5c22c1a8efe5d11eec4be9c24762a471980336.js" integrity="sha256-qyAzGqQsB1J6Vf&#43;LTlwiwajv5dEe7EvpwkdipHGYAzY=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.37ce6e1c6b487817b4a81c85ef790c0a590e82c61b93be8609db99f322ea14cb.js" integrity="sha256-N85uHGtIeBe0qByF73kMClkOgsYbk76GCduZ8yLqFMs=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -130,7 +129,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/docs/example/text2cad/" class="active">text2CAD论文调研</a>
+    <a href="/docs/example/text2cad/" class="active">Text2cad</a>
   
 
         </li>
@@ -360,6 +359,18 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        About
+      </a>
+  </li>
+  
+</ul>
+
+
 
 
 
@@ -384,7 +395,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>text2CAD论文调研</h3>
+  <h3>Text2cad</h3>
 
   <label for="toc-control">
     
@@ -405,8 +416,21 @@ https://github.com/alex-shpak/hugo-book
   </ul>
 
   <ul>
-    <li><a href="#算法定义">算法定义</a></li>
+    <li><a href="#算法定义">算法定义</a>
+      <ul>
+        <li><a href="#text2cad数据标注">Text2CAD数据标注</a></li>
+        <li><a href="#text2cad-transformer">Text2CAD Transformer</a></li>
+      </ul>
+    </li>
     <li><a href="#算法流程">算法流程</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#评估">评估</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#限制">限制</a></li>
   </ul>
 </nav>
 
@@ -454,13 +478,28 @@ repository: <a href="https://sadilkhan.github.io/text2cad-project/">https://sadi
   算法定义
   <a class="anchor" href="#%e7%ae%97%e6%b3%95%e5%ae%9a%e4%b9%89">#</a>
 </h2>
+<h3 id="text2cad数据标注">
+  Text2CAD数据标注
+  <a class="anchor" href="#text2cad%e6%95%b0%e6%8d%ae%e6%a0%87%e6%b3%a8">#</a>
+</h3>
+<p><img src="assets/image-20241117232131281.png" alt="image-20241117232131281" /></p>
 <ul>
-<li>Text2CAD数据标注</li>
+<li>
+<p>使用vllm进行形状描述</p>
+<p>首先从预定的摄像机角度为每个单独的零件和最终的 CAD 模型生成多视图图像。然后，这些图像在 LLaVANeXT [25] 模型的预定义提示</p>
+</li>
+<li>
+<p>多层级设计架构</p>
+<p>DeepCAD [55] 数据集包含 JSON 格式的 CAD 构造序列。我们首先使用“最小元数据生成器”对原始 CAD 构造序列进行预处理，该生成器用更有意义的术语（例如“part_1”、“loop_1”）替换随机、无意义的键。</p>
+</li>
 </ul>
-<p><img src="assets/image-20241117230911487.png" alt="image-20241117230911487" /></p>
-<ul>
-<li>Tranformer</li>
-</ul>
+<h3 id="text2cad-transformer">
+  Text2CAD Transformer
+  <a class="anchor" href="#text2cad-transformer">#</a>
+</h3>
+<p><img src="assets/image-20241117232847952.png" alt="image-20241117232847952" /></p>
+<p>Bert-encoder, 自回归, 自适应层</p>
+<p>Text2CAD Transformer 将文本提示 T 和长度为 t − 1 的 CAD 子序列$C_{1:t-1}$作为输入。使用预训练的 BeRT 编码器 ([7]) 从 T 中提取文本嵌入$T_{adapt}$，然后使用可训练的自适应层。生成的嵌入 Tadapt 和 CAD 序列嵌入$F_{t-1}^0$通过 L 解码器块，以自回归生成完整的 CAD 序列</p>
 <h2 id="算法流程">
   算法流程
   <a class="anchor" href="#%e7%ae%97%e6%b3%95%e6%b5%81%e7%a8%8b">#</a>
@@ -469,10 +508,21 @@ repository: <a href="https://sadilkhan.github.io/text2cad-project/">https://sadi
   实验
   <a class="anchor" href="#%e5%ae%9e%e9%aa%8c">#</a>
 </h1>
+<h2 id="评估">
+  评估
+  <a class="anchor" href="#%e8%af%84%e4%bc%b0">#</a>
+</h2>
+<p><img src="assets/image-20241117233231997.png" alt="image-20241117233231997" /></p>
 <h1 id="结论">
   结论
   <a class="anchor" href="#%e7%bb%93%e8%ae%ba">#</a>
 </h1>
+<p>这是第一个 AI 框架，旨在根据适合所有技能水平的用户的文本提示生成参数化 CAD 模型。我们的贡献包括使用 Mistral-50B 和 LLaVA-NeXT 的两阶段数据注释管道以及新颖的端到端可训练 Text2CAD Transformer 架构，该架构可有效地将自然语言指令转换为顺序 CAD 模型。通过全面的评估，包括 GPT-4V 评估和 CAD 设计人员的用户研究，我们证明 Text2CAD 优于现有的两阶段基线，特别是随着提示的复杂性和细节的增加。未来的工作将侧重于解决当前的局限性，例如减少注释不准确和提高数据集多样性，以进一步增强 Text2CAD 的稳健性和适用性</p>
+<h2 id="限制">
+  限制
+  <a class="anchor" href="#%e9%99%90%e5%88%b6">#</a>
+</h2>
+<p>尽管 Text2CAD 取得了令人鼓舞的结果，但仍存在一些局限性。首先，LLaVA-NeXT [25]对多视图图像中的透视扭曲很敏感，这会影响生成的形状描述和最终LLM生成的提示。其次，缺乏评估文本到 CAD 生成的标准化基准，给全面评估模型性能带来了挑战。此外，DeepCAD [55] 数据集是不平衡的，主要具有矩形和圆柱形形状，这限制了模型对更复杂形状的鲁棒性。补充第 15 节描述了一些失败案例。</p>
 </article>
  
       
@@ -519,8 +569,21 @@ repository: <a href="https://sadilkhan.github.io/text2cad-project/">https://sadi
   </ul>
 
   <ul>
-    <li><a href="#算法定义">算法定义</a></li>
+    <li><a href="#算法定义">算法定义</a>
+      <ul>
+        <li><a href="#text2cad数据标注">Text2CAD数据标注</a></li>
+        <li><a href="#text2cad-transformer">Text2CAD Transformer</a></li>
+      </ul>
+    </li>
     <li><a href="#算法流程">算法流程</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#评估">评估</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#限制">限制</a></li>
   </ul>
 </nav>
 

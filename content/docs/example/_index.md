@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 1
 title: "blog"
 bookCollapseSection: true
 # bookFlatSection: true

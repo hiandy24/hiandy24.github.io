@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog2 on Yat&#39;s blog</title>
+    <title>About on Yat&#39;s blog</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in blog2 on Yat&#39;s blog</description>
+    <description>Recent content in About on Yat&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>hugo图片相对路径</title>
-      <link>http://localhost:1313/posts/hugo%E5%9B%BE%E7%89%87%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/</link>
-      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo%E5%9B%BE%E7%89%87%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84/</guid>
-      <description>&lt;p&gt;之前写静态从没有考虑过图片问题，今天再用 hugo server 时遇到了图片无法渲染的问题，我基本流程是，使用Typora写md，然后用vscode push到远程渲染，讲一下我怎么解决的。Typora支持你粘贴文件的时候自动复制一个本地JPG文件（或者PNG，whatever），然后创建一个相对路径链接。&lt;/p&gt;&#xA;&lt;p&gt;在写文章的时候，先创建一个文件夹，然后在这个文件夹里面创建一个index.md，这是最靠谱的方法了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;assets/image-20241117230143259.png&#34; alt=&#34;image-20241117230143259&#34; /&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;over&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
