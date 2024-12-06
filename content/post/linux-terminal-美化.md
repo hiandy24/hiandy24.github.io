@@ -11,6 +11,7 @@ PS1="\[\\\[\\e\[01;37m\\\]\\t\]\[\\\[\\e\[01;32m\\\]\\u\\\[\\e\[37m\\\]@\\h \\\[
 通过.vimrc美化vim 
 ``` 
 syntax on " 设置语法高亮 
+set nocompatible
 set nu " 设置行数显示 
 set tabstop=4 " 设置tab缩进长度为4空格 
 set autoindent " 设置自动缩进，适用所有类型文件 

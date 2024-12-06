@@ -1,6 +1,7 @@
 ---
 title: "Shadowrocket UDP 设置"
 date: "2024-03-21"
+draft: true
 ---
 
 Shadowrocekt很好用，但是网上基本没看到他的文档，大家都把他当作ios代理入门软件，但实际上，Sr也有很多没写出来的特点。

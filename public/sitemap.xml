@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/post/2024/12/06/llm_batch_reference/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url><url>
     <loc>http://localhost:1313/post/2024/11/18/ralativepath/</loc>
     <lastmod>2024-11-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -9,11 +19,6 @@
   </url><url>
     <loc>http://localhost:1313/post/2024/11/17/text2cad/</loc>
     <lastmod>2024-11-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
@@ -78,11 +83,6 @@
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/post/2024/03/21/gredge/</loc>
-    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/2024/03/21/shadowrocket-udp-%E8%AE%BE%E7%BD%AE/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
