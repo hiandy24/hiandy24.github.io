@@ -1,6 +1,6 @@
 baseurl: "https://blog.netsing.top/"  # please update this to your actual URL
 languageCode: "en-us"
-title: "yat blog"
+title: "yet blog"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
@@ -24,7 +24,7 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+  footer: "Thanks to &copy; [Yihui Xie](https://yihui.org) 2017 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
 
 markup:
   highlight:
