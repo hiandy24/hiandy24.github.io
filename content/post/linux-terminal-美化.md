@@ -2,14 +2,15 @@
 title: "Linux terminal 美化"
 date: "2024-08-11"
 ---
+通过.bashrc美化shell
 
-通过.bashrc美化shell 
-``` 
+```
 PS1="\[\\\[\\e\[01;37m\\\]\\t\]\[\\\[\\e\[01;32m\\\]\\u\\\[\\e\[37m\\\]@\\h \\\[\\e\[36m\\\]\\w\\\[\\e\[m\\\]\]\\\\$ " 
 ```
 
-通过.vimrc美化vim 
-``` 
+通过.vimrc美化vim
+
+```
 syntax on " 设置语法高亮 
 set nocompatible
 set nu " 设置行数显示 
@@ -21,11 +22,13 @@ set cc=0 " 设置高亮的列，这里设置为0，代表关闭 set cursorline "
 set showmode 
 set showcmd 
 set mouse =a 
-set t\_Co=256 
+set t_Co=256 
 set relativenumber 
 set noerrorbells 
-set vb t\_vb=
-set encoding=utf-8 set termencoding=utf-8
+set vb t_vb=
+set encoding=utf-8 
+set termencoding=utf-8
 
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr set fileencoding=utf-8 
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr 
+set fileencoding=utf-8 
 ```
