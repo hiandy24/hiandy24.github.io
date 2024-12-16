@@ -1,6 +1,5 @@
-{{ if not .Site.IsServer }}
-{{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
+
+
 
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
@@ -12,6 +11,9 @@
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
   </head>
+
+  {{ template "_internal/google_analytics_async.html" . }}
+  
   <body>
     <nav>
     <ul class="menu">

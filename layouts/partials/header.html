@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
   </head>
-  
+  {{ template "_internal/google_analytics_async.html" . }}
   
   <body>
     <nav>
