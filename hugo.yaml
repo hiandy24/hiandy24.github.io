@@ -1,8 +1,8 @@
-baseurl: "https://blog.netsing.top/"  # please update this to your actual URL
-languageCode: "en-us"
-title: "yet blog"
+baseurl: "https://blog.logn.top/"  # please update this to your actual URL
+languageCode: "zh"
+title: "logn"
 theme: "hugo-xmin"
-googleAnalytics: ""
+googleAnalytics: "G-N7FW2QDYM7"
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
@@ -46,6 +46,6 @@ markup:
             - \)
 
 sitemap:
-  changeFreq: "weekly"
+  changeFreq: "daily"
   filename: sitemap.xml
   priority: 1
