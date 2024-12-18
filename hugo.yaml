@@ -1,8 +1,8 @@
-baseurl: "https://hiandy24.github.io/"  # please update this to your actual URL
+baseurl: "https://blog.logn.top/"  # please update this to your actual URL
 languageCode: "zh"
 title: "logn"
 theme: "hugo-xmin"
-googleAnalytics: "G-7DVJ2N2D3T"
+googleAnalytics: "G-N7FW2QDYM7"
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
